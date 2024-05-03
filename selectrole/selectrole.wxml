@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="header">
+    <t-icon name="bookmark" size="40" />
+    <text>请选择您的操作</text>
+  </view>
+<!-- pages/optionPage/optionPage.wxml -->
+  <t-grid column="1" theme="card">
+    <t-grid-item text="专业测试专家" bindtap="switchToHome" icon="document" />
+    <t-grid-item text="中小学教师" bindtap="switchToHome" icon="education" />
+    <t-grid-item text="未成年用户" bindtap="switchToKid" icon="user" />
+    <t-grid-item text="管理人员" bindtap="switchToHome" icon="settings" />
+    <t-grid-item text="科研人士" bindtap="switchToHome" icon="lab" />
+  </t-grid>
+</view>
+
+
